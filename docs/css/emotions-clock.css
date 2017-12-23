@@ -1,7 +1,7 @@
 .version.emotions_clock /* version checker */
 {
-	color: #00001D;
-	background-color: #DD1C1E;
+	color: #0000FC;
+	background-color: #70CE64;
 }
 
 .html
@@ -13,7 +13,7 @@
 {
 	z-index: 1;
 	width: 1200px;
-	min-height: 697px;
+	min-height: 1752px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
@@ -25,7 +25,7 @@
 #page_position_content
 {
 	margin-top: -28px;
-	margin-bottom: -94px;
+	padding-bottom: 50px;
 	width: 0.01px;
 }
 
@@ -353,24 +353,6 @@
 	left: 762px;
 }
 
-#u4586-3
-{
-	z-index: 176;
-	width: 78px;
-	min-height: 33px;
-	bottom: 20px;
-	right: 24px;
-}
-
-#u4586-3:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 33px;
-	width: 78px;
-	margin: 0px;
-}
-
 #u4952-4
 {
 	z-index: 48;
@@ -399,6 +381,24 @@
 	font-weight: 400;
 	margin-left: 120px;
 	position: relative;
+}
+
+#u4586-3
+{
+	z-index: 176;
+	width: 78px;
+	min-height: 33px;
+	bottom: 20px;
+	right: 24px;
+}
+
+#u4586-3:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 33px;
+	width: 78px;
+	margin: 0px;
 }
 
 #ppu4980
@@ -672,7 +672,7 @@
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: -149px;
+	margin-top: 17px;
 }
 
 #u5847
@@ -871,7 +871,6 @@
 	min-height: 18px;
 	padding-top: 10px;
 	margin-left: 22px;
-	margin-top: 22px;
 }
 
 #u6684-4

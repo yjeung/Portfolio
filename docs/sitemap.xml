@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://portfolioInsertVedioTest.com/assets/creature.mp4</loc>
+    <lastmod>2017-04-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://portfolioInsertVedioTest.com/assets/0_cover.png</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -50,7 +56,7 @@
   </url>
   <url>
     <loc>http://portfolioInsertVedioTest.com/assets/0_recipe.png</loc>
-    <lastmod>2017-12-22</lastmod>
+    <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -259,18 +265,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/title95x169.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/title95x169_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://portfolioInsertVedioTest.com/images/ending_succeed95x169.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -278,18 +272,6 @@
   </url>
   <url>
     <loc>http://portfolioInsertVedioTest.com/images/ending_succeed95x169_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul315x223.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul315x223_2x.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -307,13 +289,73 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul470x332.jpg</loc>
+    <loc>http://portfolioInsertVedioTest.com/images/main91x162.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul470x332_2x.jpg</loc>
+    <loc>http://portfolioInsertVedioTest.com/images/main91x162_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019443291x162.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019443291x162_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019445591x161.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019445591x161_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/appicon20x20.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/appicon20x20_2x.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/0_cover143x201.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/0_cover143x201_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/colorsystem116x53.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/colorsystem116x53_2x.png</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -331,18 +373,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://portfolioInsertVedioTest.com/images/kakaotalk_photo_2016-11-17-14-29-34_88.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -355,18 +385,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/characters.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/characters_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul_old.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -374,30 +392,6 @@
   </url>
   <url>
     <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul_old_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul470x333.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoul470x333_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean_2x.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -817,18 +811,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/title.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/title_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://portfolioInsertVedioTest.com/images/study_succeed.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1243,18 +1225,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/sources_blur.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/sources_blur_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://portfolioInsertVedioTest.com/images/100.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1298,6 +1268,30 @@
   </url>
   <url>
     <loc>http://portfolioInsertVedioTest.com/images/appicon_2x.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194432.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194432_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194455.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194455_2x.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1357,19 +1351,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/stickers.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/stickers_2x.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://portfolioInsertVedioTest.com/images/grid_hro.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/grid_hro_2x.png</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1471,157 +1459,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/1_recipe.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/2_recipe.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/3_recipe.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://portfolioInsertVedioTest.com/images/1_lyric2.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/pasted%20image%20612x615.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/main91x162.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/main91x162_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019443291x162.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019443291x162_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019445591x161.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%2019445591x161_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194432.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194432_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194455.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/screenshot%202017-12-22%20194455_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/0_cover143x201.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/0_cover143x201_2x.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/colorsystem116x53.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/colorsystem116x53_2x.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/stickers102x82.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/stickers102x82_2x.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/main2.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/main_2x2.jpg</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/history.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/history_2x.png</loc>
-    <lastmod>2017-12-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://portfolioInsertVedioTest.com/images/grid_hro_2x.png</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1633,19 +1471,241 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/appicon20x20.png</loc>
+    <loc>http://portfolioInsertVedioTest.com/images/pasted%20image%20612x615.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/appicon20x20_2x.png</loc>
+    <loc>http://portfolioInsertVedioTest.com/images/stickers102x72.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://portfolioInsertVedioTest.com/images/0_recipe.png</loc>
+    <loc>http://portfolioInsertVedioTest.com/images/stickers102x72_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/title.gif</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/title_2x.gif</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean470x332.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean470x332_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/0_cover_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/stickers286x202.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/stickers286x202_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/stickers_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/application-tshirt_2x.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/1_lyric2_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/0_cover311x440_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean472x334.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean472x334_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/bitmap.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/bitmap_2x.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/page%201.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/page%201_2x.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/idea2.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/idea2_2x.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/idea3.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/idea3_2x.png</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/sources_blur.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/sources_blur_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/1_recipe.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/1_recipe_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/2_recipe.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/2_recipe_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/3_recipe.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/3_recipe_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/0_recipe.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/0_recipe_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean314x222.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean314x222_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean_2x.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean470x333.jpg</loc>
+    <lastmod>2017-12-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://portfolioInsertVedioTest.com/images/hagwonsinseoulkorean470x333_2x.jpg</loc>
     <lastmod>2017-12-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

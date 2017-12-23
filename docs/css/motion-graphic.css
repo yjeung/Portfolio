@@ -1,7 +1,7 @@
 .version.motion_graphic /* version checker */
 {
-	color: #00000F;
-	background-color: #A25E6D;
+	color: #0000E4;
+	background-color: #128E7D;
 }
 
 .html
@@ -13,11 +13,12 @@
 {
 	z-index: 1;
 	width: 1200px;
-	min-height: 1110px;
+	min-height: 2027.9999999999975px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -25,7 +26,7 @@
 #page_position_content
 {
 	margin-top: -28px;
-	margin-bottom: -94px;
+	padding-bottom: 22px;
 	width: 0.01px;
 }
 
@@ -297,7 +298,7 @@
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: -149px;
+	margin-top: 17px;
 }
 
 #u5847
@@ -496,7 +497,6 @@
 	min-height: 18px;
 	padding-top: 10px;
 	margin-left: 22px;
-	margin-top: 22px;
 }
 
 #u6684-4

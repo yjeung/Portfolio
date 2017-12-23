@@ -1,7 +1,7 @@
 .version.story_of_my_grandfather /* version checker */
 {
-	color: #0000F3;
-	background-color: #5E0C2C;
+	color: #0000FC;
+	background-color: #BFA44B;
 }
 
 .html
@@ -13,7 +13,7 @@
 {
 	z-index: 1;
 	width: 1200px;
-	min-height: 696.7499999999991px;
+	min-height: 1752px;
 	-pie-box-shadow: none;
 	box-shadow: none;
 	background-image: none;
@@ -23,7 +23,6 @@
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
-	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -40,7 +39,7 @@
 #page_position_content
 {
 	margin-top: -28px;
-	margin-bottom: -93px;
+	padding-bottom: 50px;
 	width: 0.01px;
 }
 
@@ -348,24 +347,6 @@
 	position: relative;
 }
 
-#u4586-3
-{
-	z-index: 176;
-	width: 78px;
-	min-height: 33px;
-	bottom: 20px;
-	right: 24px;
-}
-
-#u4586-3:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 33px;
-	width: 78px;
-	margin: 0px;
-}
-
 #u3260-4
 {
 	z-index: 44;
@@ -396,6 +377,24 @@
 	font-weight: 400;
 	margin-left: 120px;
 	position: relative;
+}
+
+#u4586-3
+{
+	z-index: 176;
+	width: 78px;
+	min-height: 33px;
+	bottom: 20px;
+	right: 24px;
+}
+
+#u4586-3:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 33px;
+	width: 78px;
+	margin: 0px;
 }
 
 #pu3473
@@ -619,7 +618,7 @@
 	background-color: transparent;
 	line-height: 25px;
 	position: fixed;
-	bottom: 20px;
+	bottom: 22px;
 	right: 22px;
 }
 
@@ -649,7 +648,7 @@
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: -149px;
+	margin-top: 17px;
 }
 
 #u5847
@@ -804,7 +803,7 @@
 	min-height: 18px;
 	padding-top: 10px;
 	margin-right: -10000px;
-	margin-top: 39px;
+	margin-top: 40px;
 	left: 318px;
 }
 
@@ -815,7 +814,7 @@
 	min-height: 18px;
 	padding-top: 10px;
 	margin-right: -10000px;
-	margin-top: 67px;
+	margin-top: 68px;
 	left: 318px;
 }
 
@@ -826,7 +825,7 @@
 	min-height: 18px;
 	padding-top: 10px;
 	margin-right: -10000px;
-	margin-top: 95px;
+	margin-top: 96px;
 	left: 318px;
 }
 
@@ -848,7 +847,6 @@
 	min-height: 18px;
 	padding-top: 10px;
 	margin-left: 22px;
-	margin-top: 21px;
 }
 
 #u6684-4

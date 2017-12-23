@@ -1,7 +1,7 @@
 .version.sounddiary /* version checker */
 {
-	color: #00001A;
-	background-color: #1056BB;
+	color: #00000D;
+	background-color: #7FD03B;
 }
 
 .html
@@ -13,11 +13,12 @@
 {
 	z-index: 1;
 	width: 1200px;
-	min-height: 697px;
+	min-height: 1751.8000000000002px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -25,7 +26,7 @@
 #page_position_content
 {
 	margin-top: -28px;
-	margin-bottom: -94px;
+	padding-bottom: 50px;
 	width: 0.01px;
 }
 
@@ -275,12 +276,21 @@
 {
 	z-index: 33;
 	width: 1156px;
-	background-color: #FFF7F2;
+	background-color: #F0F0F0;
 	padding-bottom: 24px;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 479px;
 	left: 122px;
+}
+
+.mainshadow
+{
+	border-style: none;
+	-pie-box-shadow: none;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	border-color: #000000;
+	background-color: transparent;
 }
 
 #pu6032
@@ -300,6 +310,12 @@
 	padding-bottom: 2px;
 	margin-left: 2px;
 	position: relative;
+}
+
+#u6032 img.shadow
+{
+	-pie-box-shadow: 0px 0px 10px #CCCCCC;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 }
 
 #u6060
@@ -338,19 +354,6 @@
 	margin-right: -10000px;
 	margin-top: 152px;
 	left: 764px;
-}
-
-.mainshadow
-{
-	border-style: none;
-	border-color: #000000;
-	background-color: transparent;
-}
-
-#u6032 img.shadow,.mainshadow img.shadow
-{
-	-pie-box-shadow: 0px 0px 10px #CCCCCC;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 }
 
 #u6028-4
@@ -400,24 +403,6 @@
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
-}
-
-#u4586-3
-{
-	z-index: 200;
-	width: 78px;
-	min-height: 33px;
-	bottom: 20px;
-	right: 24px;
-}
-
-#u4586-3:hover
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 33px;
-	width: 78px;
-	margin: 0px;
 }
 
 #ppu6159-4
@@ -539,6 +524,24 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 347px;
+}
+
+#u4586-3
+{
+	z-index: 200;
+	width: 78px;
+	min-height: 33px;
+	bottom: 20px;
+	right: 24px;
+}
+
+#u4586-3:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 33px;
+	width: 78px;
+	margin: 0px;
 }
 
 #u6155-4
@@ -801,7 +804,7 @@
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: -149px;
+	margin-top: 17px;
 }
 
 #u5847
@@ -1000,7 +1003,6 @@
 	min-height: 18px;
 	padding-top: 10px;
 	margin-left: 22px;
-	margin-top: 22px;
 }
 
 #u6684-4
