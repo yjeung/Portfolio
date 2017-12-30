@@ -117,6 +117,12 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-weight: normal;
 }
 
+a,.green a
+{
+	color: inherit;
+	text-decoration: inherit;
+}
+
 .green a:link
 {
 	color: #9CA021;
