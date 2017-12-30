@@ -8,9 +8,9 @@
 #u385-4
 {
 	background-color: transparent;
-	color: #1B1B1D;
 	line-height: 29px;
 	font-size: 24px;
+	color: #1B1B1D;
 	font-family: cabin, sans-serif;
 	font-weight: 500;
 	position: relative;
@@ -35,10 +35,10 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #1B1B1D;
+	line-height: 19px;
 	text-align: right;
 	font-size: 16px;
-	line-height: 19px;
+	color: #1B1B1D;
 	font-family: cabin, sans-serif;
 	font-weight: 500;
 	position: relative;
@@ -61,10 +61,10 @@
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
-	color: #1B1B1D;
+	line-height: 19px;
 	text-align: right;
 	font-size: 16px;
-	line-height: 19px;
+	color: #1B1B1D;
 	font-family: cabin, sans-serif;
 	font-weight: 500;
 	position: relative;
@@ -113,9 +113,9 @@
 
 #u5885-4,#u5887-4,#u5884-4,#u5892-4,#u5894-4,#u5895-4,#u6683-4
 {
-	line-height: 14px;
 	text-align: left;
 	font-size: 12px;
+	line-height: 14px;
 	position: relative;
 }
 
