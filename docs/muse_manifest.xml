@@ -1,21 +1,21 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="portfolioInsertVedioTest.com" resolutions="1x,2x" timestamp="1513994171352">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="portfolioInsertVedioTest.com" resolutions="1x,2x" timestamp="1514613795250">
   <folder name="assets">
     <file name="creature.mp4" crc="504881194" seo="true" mt="1493042141000"/>
     <file name="0_cover.png" crc="277091497" seo="true" mt="1513956350000"/>
     <file name="1_recipe.png" crc="3985313307" seo="true" mt="1513993721000"/>
     <file name="2_recipe.png" crc="4261495562" seo="true" mt="1513993723000"/>
     <file name="3_recipe.png" crc="4016803145" seo="true" mt="1513993724000"/>
-    <file name="mfmidentityredesign(non-official).pdf" crc="4130133787" seo="true" mt="1513553293000"/>
+    <file name="mfmidentityredesign(non-official).pdf" crc="4119609668" seo="true" mt="1514560744000"/>
     <file name="1_cover.png" crc="91785287" seo="true" mt="1513937610000"/>
     <file name="2_cover.png" crc="204463961" seo="true" mt="1513937610000"/>
     <file name="3_cover.png" crc="484103345" seo="true" mt="1513936904000"/>
     <file name="0_recipe.png" crc="393425009" seo="true" mt="1513993720000"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="186911620"/>
+    <file name="site_global.css" crc="517649650"/>
     <file name="master_b-master.css" crc="449345353" ref="editorial:game-ui:ui:infographic:identity:works:graphic:motion-graphic:font"/>
-    <file name="master_a-master.css" crc="3909028792" ref="moon-shot:editorial:hagwons-in-seoul:cruzeiro-motiongraphic:game-ui:you-are-the:ui:untitled-21:index:lord-of-banjiha:web-portfolio:infographic:identity:works:font-joljol:graphic:contact:story-of-my-grandfather:sounddiary:motion-graphic:meat-free-monday-identity-redesign:emotions-clock:dibs:untitled-22:font"/>
-    <file name="master_c-master.css" crc="3865788019" ref="moon-shot:hagwons-in-seoul:cruzeiro-motiongraphic:you-are-the:untitled-21:lord-of-banjiha:web-portfolio:font-joljol:story-of-my-grandfather:sounddiary:meat-free-monday-identity-redesign:emotions-clock:dibs:untitled-22"/>
+    <file name="master_a-master.css" crc="3843298457" ref="moon-shot:editorial:hagwons-in-seoul:cruzeiro-motiongraphic:game-ui:you-are-the:ui:untitled-21:index:lord-of-banjiha:web-portfolio:infographic:identity:works:font-joljol:graphic:contact:story-of-my-grandfather:sounddiary:motion-graphic:meat-free-monday-identity-redesign:emotions-clock:dibs:untitled-22:font"/>
+    <file name="master_c-master.css" crc="3926951495" ref="moon-shot:hagwons-in-seoul:cruzeiro-motiongraphic:you-are-the:untitled-21:lord-of-banjiha:web-portfolio:font-joljol:story-of-my-grandfather:sounddiary:meat-free-monday-identity-redesign:emotions-clock:dibs:untitled-22"/>
     <file name="moon-shot.css" crc="3862328615" ref="moon-shot"/>
     <file name="iefonts_moon-shot.css" crc="296946406" ref="moon-shot"/>
     <file name="editorial.css" crc="3826421373" ref="editorial"/>
@@ -27,7 +27,7 @@
     <file name="iefonts_you-are-the.css" crc="4231378598" ref="you-are-the"/>
     <file name="ui.css" crc="3996218193" ref="ui"/>
     <file name="untitled-21.css" crc="3774294728" ref="untitled-21"/>
-    <file name="index.css" crc="4290967131" ref="index"/>
+    <file name="index.css" crc="3881628407" ref="index"/>
     <file name="iefonts_index.css" crc="513625816" ref="index"/>
     <file name="lord-of-banjiha.css" crc="3943065378" ref="lord-of-banjiha"/>
     <file name="iefonts_lord-of-banjiha.css" crc="3868686097" ref="lord-of-banjiha"/>
@@ -45,7 +45,7 @@
     <file name="sounddiary.css" crc="226480187" ref="sounddiary"/>
     <file name="iefonts_sounddiary.css" crc="3953116874" ref="sounddiary"/>
     <file name="motion-graphic.css" crc="3826421373" ref="motion-graphic"/>
-    <file name="meat-free-monday-identity-redesign.css" crc="107509399" ref="meat-free-monday-identity-redesign"/>
+    <file name="meat-free-monday-identity-redesign.css" crc="4169497704" ref="meat-free-monday-identity-redesign"/>
     <file name="iefonts_meat-free-monday-identity-redesign.css" crc="27064368" ref="meat-free-monday-identity-redesign"/>
     <file name="emotions-clock.css" crc="4235251300" ref="emotions-clock"/>
     <file name="iefonts_emotions-clock.css" crc="407829926" ref="emotions-clock"/>
@@ -72,8 +72,8 @@
     <file name="ezgifcom-resize_2x.gif" crc="176980529" seo="true" ref="index"/>
     <file name="kakaotalk_photo_2016-11-10-00-17-17_4395x169.jpg" crc="3983547321" seo="true" ref="index"/>
     <file name="kakaotalk_photo_2016-11-10-00-17-17_4395x169_2x.jpg" crc="391434681" seo="true" ref="index"/>
-    <file name="cover_transparent_clean-u5384.png" crc="4251106437" ref="index"/>
-    <file name="cover_transparent_clean-u5384_2x.png" crc="3823990765" ref="index"/>
+    <file name="cover_transparent_clean-u5384.png" crc="4002503681" ref="index"/>
+    <file name="cover_transparent_clean-u5384_2x.png" crc="4041182804" ref="index"/>
     <file name="uinte133x89.jpg" crc="4153951701" seo="true" ref="index"/>
     <file name="uinte133x89_2x.jpg" crc="3900809439" seo="true" ref="index"/>
     <file name="18-19_digital_capture129x92.jpg" crc="4248526975" seo="true" ref="index"/>
@@ -307,15 +307,15 @@
     <file name="grid_hro.png" crc="491835786" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="grid_hro_2x.png" crc="391167841" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="grid_ver.png" crc="4179357459" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="page10.jpg" crc="3923833790" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="page10_2x.jpg" crc="4254873476" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="page6.jpg" crc="3863354323" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="page6_2x.jpg" crc="4220518992" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="stickers.jpg" crc="376572482" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="page10.jpg" crc="132479320" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="page10_2x.jpg" crc="4118476682" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="page6.jpg" crc="3770523998" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="page6_2x.jpg" crc="3818467282" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="stickers.jpg" crc="6315327" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="screenshot 2017-12-22 184002.jpg" crc="4028283472" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="application-tshirt.png" crc="421732407" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="moto_planet.jpg" crc="254286663" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="moto_animal.jpg" crc="4018878961" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="moto_planet.jpg" crc="3804285957" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="moto_animal.jpg" crc="324137772" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="1_cover.jpg" crc="374859781" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="1_cover_2x.jpg" crc="211918388" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="2_cover.jpg" crc="288253146" seo="true" ref="meat-free-monday-identity-redesign"/>
@@ -324,10 +324,8 @@
     <file name="3_cover_2x.jpg" crc="4048178460" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="1_lyric2.jpg" crc="3901820536" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="0_cover311x440.jpg" crc="3976914114" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="pasted image 612x615.jpg" crc="4083190843" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="pasted image 596x545-crop-u6508.jpg" crc="4126743438" ref="meat-free-monday-identity-redesign"/>
-    <file name="stickers102x72.jpg" crc="446756299" seo="true" ref="index"/>
-    <file name="stickers102x72_2x.jpg" crc="229799854" seo="true" ref="index"/>
+    <file name="stickers102x72.jpg" crc="509008777" seo="true" ref="index"/>
+    <file name="stickers102x72_2x.jpg" crc="402421937" seo="true" ref="index"/>
     <file name="title.gif" crc="232546893" seo="true" ref="index:moon-shot"/>
     <file name="title_2x.gif" crc="232546893" seo="true" ref="index:moon-shot"/>
     <file name="hagwonsinseoulkorean470x332.jpg" crc="391816299" seo="true" ref="works"/>
@@ -335,9 +333,9 @@
     <file name="characters-crop-u1117.jpg" crc="320252607" ref="hagwons-in-seoul"/>
     <file name="characters-crop-u1117_2x.jpg" crc="72221333" ref="hagwons-in-seoul"/>
     <file name="0_cover_2x.jpg" crc="3887731763" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="stickers286x202.jpg" crc="4131947715" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="stickers286x202_2x.jpg" crc="3870513773" seo="true" ref="meat-free-monday-identity-redesign"/>
-    <file name="stickers_2x.jpg" crc="326090112" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="stickers286x202.jpg" crc="3759818307" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="stickers286x202_2x.jpg" crc="4116418101" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="stickers_2x.jpg" crc="248953103" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="application-tshirt_2x.png" crc="292374003" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="1_lyric2_2x.jpg" crc="4166145743" seo="true" ref="meat-free-monday-identity-redesign"/>
     <file name="0_cover311x440_2x.jpg" crc="4289478645" seo="true" ref="meat-free-monday-identity-redesign"/>
@@ -367,8 +365,14 @@
     <file name="hagwonsinseoulkorean_2x.jpg" crc="3951983414" seo="true" ref="hagwons-in-seoul"/>
     <file name="hagwonsinseoulkorean470x333.jpg" crc="4197850273" seo="true" ref="hagwons-in-seoul"/>
     <file name="hagwonsinseoulkorean470x333_2x.jpg" crc="173895363" seo="true" ref="hagwons-in-seoul"/>
+    <file name="moto_planet_2x.jpg" crc="12779221" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="moto_animal_2x.jpg" crc="4095513317" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="img_1559.jpg" crc="165360596" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="img_1559_2x.jpg" crc="295764046" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="img_1550.jpg" crc="4115054220" seo="true" ref="meat-free-monday-identity-redesign"/>
+    <file name="img_1550_2x.jpg" crc="3809032005" seo="true" ref="meat-free-monday-identity-redesign"/>
   </folder>
-  <file name="index.html" crc="4175901182" seo="true" mt="1513994074635" redirect="true"/>
+  <file name="index.html" crc="3788110307" seo="true" mt="1514613720803" redirect="true"/>
   <file name="works.html" crc="4175765667" seo="true" mt="1513994074453" redirect="true"/>
   <file name="contact.html" crc="4174316246" seo="true" mt="1513963338824" redirect="true"/>
   <file name="hagwons-in-seoul.html" crc="4033331379" seo="true" mt="1513994140300" redirect="true"/>
@@ -392,5 +396,5 @@
   <file name="untitled-22.html" crc="4125723129" seo="true" mt="1513963368521" redirect="true"/>
   <file name="sounddiary.html" crc="3971091110" seo="true" mt="1513963968985" redirect="true"/>
   <file name="identity.html" crc="329580881" seo="true" mt="1513963338824" redirect="true"/>
-  <file name="meat-free-monday-identity-redesign.html" crc="3991125443" seo="true" mt="1513993789704" redirect="true"/>
+  <file name="meat-free-monday-identity-redesign.html" crc="267984150" seo="true" mt="1514613760425" redirect="true"/>
 </manifest>
