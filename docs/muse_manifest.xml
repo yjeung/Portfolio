@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="portfolioInsertVedioTest.com" resolutions="1x,2x" timestamp="1517466354912">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="portfolioInsertVedioTest.com" resolutions="1x,2x" timestamp="1517466690581">
   <folder name="assets">
     <file name="creature.mp4" crc="504881194" seo="true" mt="1493042141000"/>
     <file name="0_cover.png" crc="277091497" seo="true" mt="1513956350000"/>
@@ -45,7 +45,7 @@
     <file name="sounddiary.css" crc="226480187" ref="sounddiary"/>
     <file name="iefonts_sounddiary.css" crc="3953116874" ref="sounddiary"/>
     <file name="motion-graphic.css" crc="3826421373" ref="motion-graphic"/>
-    <file name="meat-free-monday-identity-redesign.css" crc="249201224" ref="meat-free-monday-identity-redesign"/>
+    <file name="meat-free-monday-identity-redesign.css" crc="3815588052" ref="meat-free-monday-identity-redesign"/>
     <file name="iefonts_meat-free-monday-identity-redesign.css" crc="366800619" ref="meat-free-monday-identity-redesign"/>
     <file name="emotions-clock.css" crc="4235251300" ref="emotions-clock"/>
     <file name="iefonts_emotions-clock.css" crc="407829926" ref="emotions-clock"/>
@@ -396,5 +396,5 @@
   <file name="untitled-22.html" crc="4125723129" seo="true" mt="1513963368521" redirect="true"/>
   <file name="sounddiary.html" crc="3971091110" seo="true" mt="1513963968985" redirect="true"/>
   <file name="identity.html" crc="329580881" seo="true" mt="1513963338824" redirect="true"/>
-  <file name="meat-free-monday-identity-redesign.html" crc="262074861" seo="true" mt="1517466247501" redirect="true"/>
+  <file name="meat-free-monday-identity-redesign.html" crc="4291029593" seo="true" mt="1517466678262" redirect="true"/>
 </manifest>
