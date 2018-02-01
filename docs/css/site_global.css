@@ -117,12 +117,6 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-weight: normal;
 }
 
-a,.green a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 .green a:link
 {
 	color: #9CA021;
@@ -230,6 +224,14 @@ a,.green a
 	color: #005010;
 	font-family: arimo, sans-serif;
 	font-size: 16px;
+	font-weight: 400;
+}
+
+.empathize-brown
+{
+	color: #46222E;
+	font-family: arimo, sans-serif;
+	font-size: 24px;
 	font-weight: 400;
 }
 

@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="portfolioInsertVedioTest.com" resolutions="1x,2x" timestamp="1514614323047">
+<manifest alg="2" build="2015.0.0.309" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="portfolioInsertVedioTest.com" resolutions="1x,2x" timestamp="1517466354912">
   <folder name="assets">
     <file name="creature.mp4" crc="504881194" seo="true" mt="1493042141000"/>
     <file name="0_cover.png" crc="277091497" seo="true" mt="1513956350000"/>
@@ -12,9 +12,9 @@
     <file name="0_recipe.png" crc="393425009" seo="true" mt="1513993720000"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="517649650"/>
+    <file name="site_global.css" crc="255320770"/>
     <file name="master_b-master.css" crc="449345353" ref="editorial:game-ui:ui:infographic:identity:works:graphic:motion-graphic:font"/>
-    <file name="master_a-master.css" crc="3843298457" ref="moon-shot:editorial:hagwons-in-seoul:cruzeiro-motiongraphic:game-ui:you-are-the:ui:untitled-21:index:lord-of-banjiha:web-portfolio:infographic:identity:works:font-joljol:graphic:contact:story-of-my-grandfather:sounddiary:motion-graphic:meat-free-monday-identity-redesign:emotions-clock:dibs:untitled-22:font"/>
+    <file name="master_a-master.css" crc="4152192340" ref="moon-shot:editorial:hagwons-in-seoul:cruzeiro-motiongraphic:game-ui:you-are-the:ui:untitled-21:index:lord-of-banjiha:web-portfolio:infographic:identity:works:font-joljol:graphic:contact:story-of-my-grandfather:sounddiary:motion-graphic:meat-free-monday-identity-redesign:emotions-clock:dibs:untitled-22:font"/>
     <file name="master_c-master.css" crc="3926951495" ref="moon-shot:hagwons-in-seoul:cruzeiro-motiongraphic:you-are-the:untitled-21:lord-of-banjiha:web-portfolio:font-joljol:story-of-my-grandfather:sounddiary:meat-free-monday-identity-redesign:emotions-clock:dibs:untitled-22"/>
     <file name="moon-shot.css" crc="3862328615" ref="moon-shot"/>
     <file name="iefonts_moon-shot.css" crc="296946406" ref="moon-shot"/>
@@ -45,8 +45,8 @@
     <file name="sounddiary.css" crc="226480187" ref="sounddiary"/>
     <file name="iefonts_sounddiary.css" crc="3953116874" ref="sounddiary"/>
     <file name="motion-graphic.css" crc="3826421373" ref="motion-graphic"/>
-    <file name="meat-free-monday-identity-redesign.css" crc="3909076901" ref="meat-free-monday-identity-redesign"/>
-    <file name="iefonts_meat-free-monday-identity-redesign.css" crc="27064368" ref="meat-free-monday-identity-redesign"/>
+    <file name="meat-free-monday-identity-redesign.css" crc="249201224" ref="meat-free-monday-identity-redesign"/>
+    <file name="iefonts_meat-free-monday-identity-redesign.css" crc="366800619" ref="meat-free-monday-identity-redesign"/>
     <file name="emotions-clock.css" crc="4235251300" ref="emotions-clock"/>
     <file name="iefonts_emotions-clock.css" crc="407829926" ref="emotions-clock"/>
     <file name="dibs.css" crc="25632522" ref="dibs"/>
@@ -396,5 +396,5 @@
   <file name="untitled-22.html" crc="4125723129" seo="true" mt="1513963368521" redirect="true"/>
   <file name="sounddiary.html" crc="3971091110" seo="true" mt="1513963968985" redirect="true"/>
   <file name="identity.html" crc="329580881" seo="true" mt="1513963338824" redirect="true"/>
-  <file name="meat-free-monday-identity-redesign.html" crc="261686158" seo="true" mt="1514614279109" redirect="true"/>
+  <file name="meat-free-monday-identity-redesign.html" crc="262074861" seo="true" mt="1517466247501" redirect="true"/>
 </manifest>
