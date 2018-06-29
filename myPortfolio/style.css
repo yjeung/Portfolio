@@ -7,4 +7,41 @@
   content: "haha";
   color: #ddff00
  }
-.globalContent { option: values; }
+.caption{
+  font-size: 10pt;
+  color: #7F7F7F;
+}
+.subhead{
+  padding-top:120px;
+  font-size: 24pt;
+  color: #7F7F7F;
+}
+.thumbnail{
+  width: 100%;
+  height: auto;
+  color: #000000;
+  border-style:none;
+}
+.thumbnail img{
+  width: 100px;
+  height: auto;
+}
+.stage{
+  width: 100%;
+  height: auto;
+  background: #323232;
+}
+.infos{
+  padding-top: 100px;
+  text-align: center;
+  line-height: 50%;
+}
+.explainArea{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.scrollArea{
+  z-index:-1;
+  width:100%;
+  position:absolute;
+}

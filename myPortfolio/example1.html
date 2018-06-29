@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Yunji Jeung</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="import" href="./forms.html">
+  </head>
+  <body>
+      <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        // Grab DOM from warning.html's document.
+        var el = content.querySelector('.header_title');
+        document.body.appendChild(el.cloneNode(true));
+      </script>
+
+<div id="scrollArea" class="scrollArea">
+      <div class="infos">
+        <h1>name</h1>
+        <p>Infographic</p>
+        <p>Individual</p>
+        <p>2016 spring</p>
+      </div>
+
+      <div class="stage">
+        <img src="resources/bridge zombies/z1.gif"/>
+      </div>
+      <div class="explainArea">
+        <h4>Process</h4>
+        <p>explainexplain</p>
+        <h4>Reflections</h4>
+        explainexplain
+      </div>
+</div>
+
+    <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.warning');
+    document.getElementById("scrollArea").appendChild(el.cloneNode(true));
+      </script>
+  </body>
+</html>

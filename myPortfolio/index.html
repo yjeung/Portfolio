@@ -1,29 +1,96 @@
 <!DOCTYPE html>
 <html lang="kr">
   <head>
+    <title>yunji Portfolio</title>
     <title>Yunji Jeung</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="import" href="./warnings.html">
-</script>
-
+    <link rel="import" href="./forms.html">
   </head>
   <body>
-    <header>
-    </header>
-
-    <content>
       <script>
-    var link = document.querySelector('link[rel="import"]');
-    var content = link.import;
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        // Grab DOM from forms.html's document.
+        var el = content.querySelector('.header_title');
+        document.body.appendChild(el.cloneNode(true));
+      </script>
 
-    // Grab DOM from warning.html's document.
-    var el = content.querySelector('.warning');
-    document.body.appendChild(el.cloneNode(true));
-  </script>
-    </content>
+<div id="scrollArea" class="scrollArea">
+    <div style="width:80%; height:auto; padding-left:20px;padding-right:20px;padding-top:100px; margin-top:20px;">
+        Welcome to my portfolio website!
+    I am a student studying visual communication design.
+    I practice on various branches on design, and especially am interested in how to make information more attractive and easier to understand using design skills. To approach this goal both in static and interactive way, I focus my works and studies about information design and interaction design, as well as game models. Thank you
+    </div>
+    <!--thumbnails-->
+    <div style="padding-left:60px;padding-right:60px;margin-top:60px;background:#f9f9f9;width: 100%;"
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="thumbnail">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail" id="thumbnail1">
+          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
+          <p>title</p>
+        </div>
+      </div>
+    </div>
+    <script>
+    var thumbnailNumbers = 1;
+    for (i = 1; i < thumbnailNumbers+1; i++) {
+      var idid = "thumbnail" + i;
+      //document.getElementById(idid).innerHTML = "hi";
+    }
+    </script>
 
-    <footer class="globalFooter">
-    </footer>
-
+      <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        // Grab DOM from warning.html's document.
+        var el = content.querySelector('.footer');
+        document.getElementById("scrollArea").appendChild(el.cloneNode(true));
+      </script>
+</div>
   </body>
 </html>
