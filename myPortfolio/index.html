@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>Yunji Jeung</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="import" href="../warnings.html">
+</script>
+
+  </head>
+  <body>
+    <header>
+    </header>
+
+    <content>
+      <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.warning');
+    document.body.appendChild(el.cloneNode(true));
+  </script>
+    </content>
+
+    <footer class="globalFooter">
+    </footer>
+
+  </body>
+</html>

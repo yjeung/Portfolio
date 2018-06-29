@@ -1,0 +1,10 @@
+.globalHeader {
+  content: "Test";
+}
+.globalFooter:before {
+  content: "Test";
+  color: #ffdd00
+  content: "haha";
+  color: #ddff00
+ }
+.globalContent { option: values; }
