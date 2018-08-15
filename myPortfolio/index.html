@@ -53,11 +53,11 @@
       </script>
   <div id="myBtnContainer">
     <div style="width:420px;float:right">
-      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-      <button class="btn" onclick="filterSelection('id')"> Identity design </button>
-      <button class="btn" onclick="filterSelection('ga')"> Game Arts </button>
-      <button class="btn" onclick="filterSelection('ui')"> UI design</button>
-      <button class="btn" onclick="filterSelection('et')"> others </button>
+      <button id="btn_all" class="btn" onclick="filterSelection('all')"> Show all</button>
+      <button id="btn_id" class="btn" onclick="filterSelection('id')"> Identity design </button>
+      <button id="btn_ga" class="btn" onclick="filterSelection('ga')"> Game Arts </button>
+      <button id="btn_ui" class="btn" onclick="filterSelection('ui')"> UI design</button>
+      <button id="btn_et" class="btn" onclick="filterSelection('et')"> others </button>
     </div>
   </div>
   <div class="scrollArea">
@@ -111,22 +111,38 @@
         </div>
     </div>
       <!--scrollArea end-->
-    <script>
-        var thumbnailNumbers = 1;
-        for (i = 1; i < thumbnailNumbers+1; i++) {
-          var idid = "thumbnail" + i;
-          //document.getElementById(idid).innerHTML = "hi";
-        }
-    </script>
 <!--필터링-->
     <script>
+        //filter setup
         if (typeof localStorage.getItem("sort") !== 'undefined'){
           // defined됐을때인뎅
-           console.log(localStorage.getItem("sort"));
-            filterSelection(localStorage.getItem("sort"));
+          var a = localStorage.getItem("sort")
+          if(a!==null){
+            //내용있을때
+            filterSelection(a);
+            var buttons = document.getElementById("myBtnContainer").getElementsByClassName("btn");
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].className = buttons[i].className.replace(" active", "");
+            }
+            toSelect = document.getElementById('btn_'+a);
+            console.log("current filter:"+a);
+            console.log(toSelect);
+            toSelect.className += " active";
+           }
+           else{resetFilter();}
         }else{
-            filterSelection("all");
+            resetFilter();
         }
+        function resetFilter(){
+          document.getElementById('btn_'+'all').className += " active";
+        }
+
+        //sort
+        setTimeout(clearSort, 60000)
+        function clearSort(){localStorage.removeItem("sort");}
+        document.getElementById("toHome").onclick=function(){localStorage.removeItem("sort");}
+
+        //filter
         function filterSelection(c) {
           var x, i;
           x = document.getElementsByClassName("thumbnail");
@@ -139,6 +155,8 @@
             //클래스네임에서 ""의 검색결과가 없을때 -1을 내보낸다. 따라서 밑엔 c의 검색한번이라도 되면되는거.
             if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
           }
+          //버튼도 가공해주자
+
         }
 
         function w3AddClass(element, name) {
@@ -171,8 +189,11 @@
         for (var i = 0; i < btns.length; i++) {
           btns[i].addEventListener("click", function(){
             var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
+            console.log(current);
+            if(current.length!==0){
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+            }
           });
         }
     </script>
