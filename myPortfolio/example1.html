@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
   <head>
     <title>Yunji Jeung</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
     <link rel="import" href="./forms.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
   </head>
   <body>
-      <script>
-        var link = document.querySelector('link[rel="import"]');
-        var content = link.import;
-        // Grab DOM from warning.html's document.
-        var el = content.querySelector('.header_title');
-        document.body.appendChild(el.cloneNode(true));
-      </script>
-
-<div id="scrollArea" class="scrollArea">
-      <div class="infos">
-        <h1>name</h1>
-        <p>Infographic</p>
-        <p>Individual</p>
-        <p>2016 spring</p>
-      </div>
-
-      <div class="stage">
-        <img src="resources/bridge zombies/z1.gif"/>
-      </div>
-      <div class="explainArea">
-        <h4>Process</h4>
-        <p>explainexplain</p>
-        <h4>Reflections</h4>
-        explainexplain
-      </div>
-</div>
-
     <script>
-    var link = document.querySelector('link[rel="import"]');
-    var content = link.import;
+      var link = document.querySelector('link[rel="import"]');
+      var content = link.import;
+      // Grab DOM from warning.html's document.
+      var el = content.querySelector(".header_title");
+      document.body.appendChild(el.cloneNode(true));
+    </script>
+    <script>
+      var link = document.querySelector('link[rel="import"]');
+      var content = link.import;
+      // Grab DOM from warning.html's document.
+      var el = content.querySelector(".footerClose");
+      document.body.appendChild(el.cloneNode(true));
+    </script>
 
-    // Grab DOM from warning.html's document.
-    var el = content.querySelector('.warning');
-    document.getElementById("scrollArea").appendChild(el.cloneNode(true));
-      </script>
+    <div class="scrollArea">
+      <div class="flexible">
+        <div class="infos">
+          <h1>Shooting Star</h1>
+          <div>
+            <p class="ga">Game Art</p>
+            <span class="date">2016 spring</span>
+            <span class="collabo">Individual</span>
+          </div>
+          <div class="explain">
+            정문과 수업 팀플로 만든 게임이다. 스케치와 포토샵으로 디자인했고,
+   최종 아웃풋은 프로세싱으로 만들었다.
+          </div>
+        </div>
+      </div>
+      <div class="flexibleImage">
+        <img src="resources/shootingStar/title.png"/>
+      </div>
+        <div class="flexible">
+          <h4>Process</h4>
+          <p>explainexplain</p>
+          <h4>Reflections</h4>
+          <p>explainexplain</p>
+          <div class="videoContainer">
+            <div>
+              "비디오 로딩중! \(*^_^*)/"
+            </div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BAJIJ6z4YBQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      console.log(localStorage.getItem("sort"));
+    </script>
   </body>
 </html>

@@ -1,13 +1,47 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
   <head>
     <title>yunji Portfolio</title>
-    <title>Yunji Jeung</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
     <link rel="import" href="./forms.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <style>
+        #myBtnContainer{
+          position: fixed;
+          bottom:0;
+          width:100%;
+          height: 40px;
+          background: rgba(255, 255, 255, 0.4);
+          overflow-x:scroll;
+          overflow-y: hidden;
+        }
+        .show {
+          display: inline-block;
+        }
+
+        /* Style the buttons */
+        .btn {
+          display: inline-block;
+          height: 40px;
+          border: none;
+          outline: none;
+          float: right;
+          padding: 12px 16px;
+          background-color: #f1f1f1;
+          cursor: pointer;
+        }
+        .btn:hover {
+          background-color: #ddd;
+        }
+        .btn.active {
+          background-color: #666;
+          color: white;
+        }
+    </style>
   </head>
   <body>
       <script>
@@ -17,80 +51,130 @@
         var el = content.querySelector('.header_title');
         document.body.appendChild(el.cloneNode(true));
       </script>
-
-<div id="scrollArea" class="scrollArea">
-    <div style="width:80%; height:auto; padding-left:20px;padding-right:20px;padding-top:100px; margin-top:20px;">
-        Welcome to my portfolio website!
-    I am a student studying visual communication design.
-    I practice on various branches on design, and especially am interested in how to make information more attractive and easier to understand using design skills. To approach this goal both in static and interactive way, I focus my works and studies about information design and interaction design, as well as game models. Thank you
+  <div id="myBtnContainer">
+    <div style="width:420px;float:right">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('id')"> Identity design </button>
+      <button class="btn" onclick="filterSelection('ga')"> Game Arts </button>
+      <button class="btn" onclick="filterSelection('ui')"> UI design</button>
+      <button class="btn" onclick="filterSelection('et')"> others </button>
     </div>
-    <!--thumbnails-->
-    <div style="padding-left:60px;padding-right:60px;margin-top:60px;background:#f9f9f9;width: 100%;"
-    <div class="row">
-      <div class="col-xs-4">
-        <div class="thumbnail">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
-        </div>
+  </div>
+  <div class="scrollArea">
+      <div class="flexible" style="margin-top:120px;">
+          Welcome to my portfolio website!
+      I am a student studying visual communication design.
+      I practice on various branches on design, and especially am interested in how to make information more attractive and easier to understand using design skills. To approach this goal both in static and interactive way, I focus my works and studies about information design and interaction design, as well as game models. Thank you
       </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
+      <!--thumbnails-->
+      <div class="flexibleTable">
+          <div class="thumbnail ui">
+            <a href="example1.html"><img src="resources/thumbnail/withkids.png"/></a>
+            <p>WithKids UI디자인</p>
+            <p>17.02.08</p>
+          </div>
+          <div class="thumbnail id">
+            <a href="example1.html"><img src="resources/thumbnail/shooting.gif"/></a>
+            <p>Shooting Star 게임아트</p>
+            <p>17.02.08</p>
+          </div>
+          <div class="thumbnail id">
+            <a href="example1.html"><img src="resources/thumbnail/meatfree_0.png"/></a>
+            <p>Meat Free Monday BI 리디자인(비공식)</p>
+            <p>17.02.08</p>
+          </div>
+          <div class="thumbnail ga ui">
+            <a href="example1.html"><img src="resources/thumbnail/joongo.png"/></a>
+            <p>중고로운 평화나라 게임아트 및 UI디자인</p>
+            <p>17.02.08</p>
+          </div>
+          <div class="thumbnail ga">
+            <a href="example1.html"><img src="resources/thumbnail/zombie.png"/></a>
+            <p>외나무 좀비 게임아트</p>
+            <p>17.02.08</p>
+          </div>
+          <div class="thumbnail ga">
+            <a href="example1.html"><img src="resources/thumbnail/moonshot.png"/></a>
+            <p>문샷 게임아트</p>
+            <p>17.02.08</p>
+          </div>
+          <div class="thumbnail et">
+            <a href="example1.html"><img src="resources/thumbnail/hagwon.png"/></a>
+            <p>서울의 학원들 인포그래픽</p>
+            <p>17.02.08</p>
+          </div>
+          <div class="thumbnail et">
+            <a href="example1.html"><img src="resources/thumbnail/joljol.png"/></a>
+            <p>졸졸체 레터링</p>
+            <p>17.02.08</p>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail" id="thumbnail1">
-          <a href="example1.html"><img src="resources/bridge zombies/z1.gif"/></a>
-          <p>title</p>
-        </div>
-      </div>
     </div>
+      <!--scrollArea end-->
     <script>
-    var thumbnailNumbers = 1;
-    for (i = 1; i < thumbnailNumbers+1; i++) {
-      var idid = "thumbnail" + i;
-      //document.getElementById(idid).innerHTML = "hi";
-    }
+        var thumbnailNumbers = 1;
+        for (i = 1; i < thumbnailNumbers+1; i++) {
+          var idid = "thumbnail" + i;
+          //document.getElementById(idid).innerHTML = "hi";
+        }
     </script>
+<!--필터링-->
+    <script>
+        if (typeof localStorage.getItem("sort") !== 'undefined'){
+          // defined됐을때인뎅
+           console.log(localStorage.getItem("sort"));
+            filterSelection(localStorage.getItem("sort"));
+        }else{
+            filterSelection("all");
+        }
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("thumbnail");
+          localStorage.setItem("sort",c);
+          //어떤 클래스에서 검색해도 포함될 수 있도록 c를 가공해준다.
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            //일단 다 안보이게 하고
+            w3RemoveClass(x[i], "show");
+            //클래스네임에서 ""의 검색결과가 없을때 -1을 내보낸다. 따라서 밑엔 c의 검색한번이라도 되면되는거.
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
 
-      <script>
-        var link = document.querySelector('link[rel="import"]');
-        var content = link.import;
-        // Grab DOM from warning.html's document.
-        var el = content.querySelector('.footer');
-        document.getElementById("scrollArea").appendChild(el.cloneNode(true));
-      </script>
-</div>
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          //추가하고싶은개수.
+          for (i = 0; i < arr2.length; i++) {
+            //추가하고싶은 모든 클래스들에 대하여, arr1에 그 클래스가 포함되지 않았다면 추가해주라는뜻.
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            //추가하고싶은 모든 클래스들에 대하여, arr1에 그 클래스가 포함돼있으면 거기서부터 하나를 지워라.
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+    </script>
   </body>
 </html>
