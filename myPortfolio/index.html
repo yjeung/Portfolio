@@ -2,11 +2,7 @@
 <html lang="ko">
   <head>
     <title>yunji Portfolio</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="./style.css" type="text/css"/>
-    <link rel="import" href="./forms.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <style>
@@ -44,13 +40,7 @@
     </style>
   </head>
   <body>
-      <script>
-        var link = document.querySelector('link[rel="import"]');
-        var content = link.import;
-        // Grab DOM from forms.html's document.
-        var el = content.querySelector('.header_title');
-        document.body.appendChild(el.cloneNode(true));
-      </script>
+  <iframe class="header" id="head" src = "./header.html"></iframe>
   <div id="myBtnContainer">
     <div style="width:420px;float:right">
       <button id="btn_all" class="btn" onclick="filterSelection('all')"> Show all</button>
@@ -134,13 +124,13 @@
             resetFilter();
         }
         function resetFilter(){
+          filterSelection('all');
           document.getElementById('btn_'+'all').className += " active";
         }
 
         //sort
         setTimeout(clearSort, 60000)
         function clearSort(){localStorage.removeItem("sort");}
-        document.getElementById("toHome").onclick=function(){localStorage.removeItem("sort");}
 
         //filter
         function filterSelection(c) {
@@ -196,6 +186,16 @@
             }
           });
         }
+    </script>
+    <script>
+    var x = document.getElementById("head");
+    var y = (x.contentWindow || x.contentDocument);
+    if (y.document)y = y.document;
+      console.log(y);
+      var el = y.getElementById("toHome");
+      el.onClick=function(){
+        window.location="index.html";
+        localStorage.removeItem("sort");}
     </script>
   </body>
 </html>

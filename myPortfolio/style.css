@@ -2,7 +2,18 @@ body{
   margin:0;
   padding: 0;
 }
-flexibleImagebody{
+.header{
+  width:100%;
+  border: none;
+  position: fixed;
+}
+.footer_example{
+  width:100%;
+  border: none;
+  position: fixed;
+  bottom:0;
+}
+.flexibleImagebody{
   margin:0px;
 }
 .globalHeader {

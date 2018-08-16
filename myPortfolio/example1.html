@@ -6,25 +6,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="./style.css" type="text/css"/>
-    <link rel="import" href="./forms.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
   </head>
   <body>
-    <script>
-      var link = document.querySelector('link[rel="import"]');
-      var content = link.import;
-      // Grab DOM from warning.html's document.
-      var el = content.querySelector(".header_title");
-      document.body.appendChild(el.cloneNode(true));
-    </script>
-    <script>
-      var link = document.querySelector('link[rel="import"]');
-      var content = link.import;
-      // Grab DOM from warning.html's document.
-      var el = content.querySelector(".footerClose");
-      document.body.appendChild(el.cloneNode(true));
-    </script>
+  <iframe id="header" src = "header.htm"></iframe>
+  <iframe class="footer_example" src ="footer_example.html"></iframe>
 
     <div class="scrollArea">
       <div class="flexible">
