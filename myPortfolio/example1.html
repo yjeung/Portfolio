@@ -6,13 +6,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="./style.css" type="text/css"/>
+    <script type="text/javascript" src="functions.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
   </head>
   <body>
-  <iframe id="header" src = "header.htm"></iframe>
-  <iframe class="footer_example" src ="footer_example.html"></iframe>
-
+    <!--make templates-->
+    <div id="headerMirror" onclick=""></div>
+    <div id="examplesFixedMirror" onclick=""></div>
+    <iframe id="myFrames" src="forms.html"></iframe>
+    <script>
+      document.getElementById('myFrames').onload= function() {
+        getHeader();
+        getFooter();
+        getExamplesFixed();
+      }
+    </script>
+    <!--contents-->
     <div class="scrollArea">
       <div class="flexible">
         <div class="infos">
@@ -43,11 +53,11 @@
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BAJIJ6z4YBQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
+      <div id="footerMirror" onclick=""></div>
+      <!--scrollArea end-->
       </div>
-    </div>
     <script>
       console.log(localStorage.getItem("sort"));
-      document.getElementById("toHome").onclick=function(){localStorage.removeItem("sort");}
     </script>
   </body>
 </html>

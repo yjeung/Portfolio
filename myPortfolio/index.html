@@ -3,6 +3,7 @@
   <head>
     <title>yunji Portfolio</title>
     <link rel="stylesheet" href="./style.css" type="text/css"/>
+    <script type="text/javascript" src="functions.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <style>
@@ -40,7 +41,16 @@
     </style>
   </head>
   <body>
-  <iframe class="header" id="head" src = "./header.html"></iframe>
+  <!--make templates-->
+  <div id="headerMirror" onclick=""></div>
+  <iframe id="myFrames" src="forms.html"></iframe>
+  <script>
+    document.getElementById('myFrames').onload= function() {
+      getHeader();
+      getFooter();
+    }
+  </script>
+  <!--contents-->
   <div id="myBtnContainer">
     <div style="width:420px;float:right">
       <button id="btn_all" class="btn" onclick="filterSelection('all')"> Show all</button>
@@ -99,9 +109,11 @@
             <p>17.02.08</p>
           </div>
         </div>
+    <div id="footerMirror" onclick=""></div>
     </div>
       <!--scrollArea end-->
 <!--필터링-->
+
     <script>
         //filter setup
         if (typeof localStorage.getItem("sort") !== 'undefined'){
@@ -116,7 +128,6 @@
             }
             toSelect = document.getElementById('btn_'+a);
             console.log("current filter:"+a);
-            console.log(toSelect);
             toSelect.className += " active";
            }
            else{resetFilter();}
@@ -187,15 +198,6 @@
           });
         }
     </script>
-    <script>
-    var x = document.getElementById("head");
-    var y = (x.contentWindow || x.contentDocument);
-    if (y.document)y = y.document;
-      console.log(y);
-      var el = y.getElementById("toHome");
-      el.onClick=function(){
-        window.location="index.html";
-        localStorage.removeItem("sort");}
-    </script>
+
   </body>
 </html>

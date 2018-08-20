@@ -2,29 +2,32 @@ body{
   margin:0;
   padding: 0;
 }
-.header{
+#headerMirror{
   width:100%;
-  border: none;
-  position: fixed;
+  padding: 20px;
+  position:fixed;
 }
-.footer_example{
+#footerMirror{
   width:100%;
   border: none;
+}
+#examplesFixedMirror{
+  width:100%;
+  border: none;
+  background-color: red;
   position: fixed;
   bottom:0;
+}
+iframe{
+  display: none;
+  width:100%;
+  border: none;
+  position: fixed;
+  background-color: red;
 }
 .flexibleImagebody{
   margin:0px;
 }
-.globalHeader {
-  content: "Test";
-}
-.globalFooter:before {
-  content: "Test";
-  color: #ffdd00
-  content: "haha";
-  color: #ddff00
- }
 .caption{
   font-size: 10pt;
   color: #7F7F7F;
