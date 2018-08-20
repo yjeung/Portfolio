@@ -42,12 +42,10 @@
   </head>
   <body>
   <!--make templates-->
-  <div id="headerMirror" onclick=""></div>
   <iframe id="myFrames" src="forms.html"></iframe>
   <script>
     document.getElementById('myFrames').onload= function() {
-      getHeader();
-      getFooter();
+      getForms("home");
     }
   </script>
   <!--contents-->
@@ -60,7 +58,7 @@
       <button id="btn_et" class="btn" onclick="filterSelection('et')"> others </button>
     </div>
   </div>
-  <div class="scrollArea">
+  <div id="scrollArea">
       <div class="flexible" style="margin-top:120px;">
           Welcome to my portfolio website!
       I am a student studying visual communication design.
@@ -109,7 +107,6 @@
             <p>17.02.08</p>
           </div>
         </div>
-    <div id="footerMirror" onclick=""></div>
     </div>
       <!--scrollArea end-->
 <!--필터링-->
