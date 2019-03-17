@@ -56,7 +56,7 @@ iframe{
 }
 
 .thumbnail{
-  display: none;
+  /* display: none; */
   width: 234px;
   height: 224px;
   margin-left: 20px;
@@ -85,79 +85,6 @@ iframe{
   height: 12px;
 }
 
-/* examples */
-.flexibleImage{
-  margin-top: 12px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: auto;
-  background: #101010;
-  /* overflow: visible; */
-}
-.flexibleImage img{
-  width:100%;
-  vertical-align:top;
-  height:auto;
-}
-.explainArea{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.infos{
-  margin-top: 120px;
-  color: #455160;
-}
-.infos div{
-  margin-top: 12px;
-  display: inline-block;
-  width:48%;
-}
-.infos h1{
-  color: #000000;
-  font-size: 36pt;
-  width:100%;
-  line-height: 95%;
-  height:auto;
-  margin-bottom: 30px;
-}
-.infos .ga{
-  font-size: 9pt;
-  color: #F95CAB;
-  line-height: 13px;
-  margin:0;
-  vertical-align:top;
-}
-.infos span{
-  font-size: 9pt;
-  color: #455160
-}
-.collabo::before{
-  content:"/ ";
-}
-.infos .explain{
-  display: inline-block;
-  color: #455160;
-  font-size: 10pt;
-  line-height: 16px;
-  width:50%;
-  height:auto;
-  vertical-align: top;
-  margin-top: 14px;
-}
-.videoContainer{
-  width: 100%;
-  height: 50vw;
-  overflow: hidden;
-  /* background-image:url(); */
-}
-.videoContainer div{
-  width: 80%;
-  height: 50vw;
-  text-align: center;
-  z-index: -1;
-  position:absolute;
-}
 /* responsive */
   @media only screen and (min-width: 240px) {
       /* 1열 */
