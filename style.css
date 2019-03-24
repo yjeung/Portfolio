@@ -28,7 +28,16 @@ iframe{
 .flexibleImagebody{
   margin:0px;
 }
+h3{
+  font-size:14pt;  
+}
+p{
+  font-size: 12pt;
+  color: #000000d0;
+  line-height: 140%;
+}
 .caption{
+  margin-top:6px;
   font-size: 10pt;
   color: #7F7F7F;
 }
@@ -37,6 +46,16 @@ iframe{
   font-size: 24pt;
   color: #7F7F7F;
 }
+a:link {
+  color: rgb(78, 86, 112);
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(78, 86, 112);
+  text-decoration: underline;
+}
+
+
 
 #scrollArea{
   z-index:-1;
