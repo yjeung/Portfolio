@@ -1,6 +1,7 @@
 <html lang="ko">
   <head>
     <script type="text/javascript" src="functions.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   </head>
   <style>
     .imageFrame{
@@ -8,31 +9,34 @@
       color: aqua;
       display: inline-block;
       width: 48%;
+      font-family: 'Muli', sans-serif;
     }
     .imageFrame image{
       width:100%;
       height:auto;
       display:block;
     }
+    
   </style>
   <body>
 <!--header-->
-      <div id="header" style="width:100%; height:100px; padding:40px;">
-          <div style="width:100px; float:right">Contact</div>
+      <div id="header" style="width:100%; height:40px; padding:40px; pointer-events: none;">
+          <div style="width:100px; float:right; font-family: 'Muli', sans-serif;">Contact</div>
           <a href="index.html">
-          <div id="toHome" style="width:100px; float:left" onclick="reset()">
-            Yun Ji Jeung
+          <div id="toHome" style="width:100px; float:left;  font-family: 'Muli', sans-serif;
+          "  onclick="reset()">
+            <p style="font-family: 'Muli', sans-serif;">Yun Ji Jeung</p>
           </div>
       </div>
 <!--exampesFixed-->
     <div id="examplesFixed" class="footerClose">
-      <div style="width:100%;height:60px;position:fixed;bottom:0px;">
+      <div style="width:100%;height:120px;position:fixed;bottom:40px;">
         <a href="index.html">
-        <img style="width:44px; height:44px;float:right;margin-right:12px;margin-top:8px" src="resources/UI/btn_close.png"/></a>
+        <img style="width:44px; height:44px;float:right;margin-right:12px;margin-top:0px" src="resources/UI/btn_close.png"/></a>
       </div>
     </div>
 <!--footer-->
-      <div id="footer" style="width:100%; height:100px; padding:20px">
+      <div id="footer" style="width:100%; height:100px; margin-right:20px; margin-bottom:40px">
           <!-- <p>Hello I'm footer</p> -->
       </div>
   </body>

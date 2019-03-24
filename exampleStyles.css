@@ -1,4 +1,5 @@
 @import "style.css";
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 /* examples */
   .mainImage{
@@ -24,7 +25,7 @@
   vertical-align: top; 
 }
 .shadowed{
-    box-shadow: 0px 0px 5px #00000020;
+    box-shadow: 0px 0px 5px #00000010;
 }
   .flexibleImage img{
     width:100%;
@@ -37,20 +38,39 @@
   }
   .infos{
     margin-top: 120px;
-    color: #455160;
+    width:100%;
+    color: #222222;
+    vertical-align: top;
   }
   .infos div{
     margin-top: 12px;
     display: inline-block;
-    width:48%;
   }
   .infos h1{
     color: #000000;
-    font-size: 36pt;
-    width:100%;
-    line-height: 110%;
+    display:inline-block;
+    font-size: 24pt;
+    width:80%;
+    line-height: 120%;
     height:auto;
     margin-bottom: 30px;
+    font-family: 'Muli', sans-serif;
+  }
+  .infos .small{
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding-top: 20px;
+    width:18%;
+  }
+  .explains{
+    padding-top: 12px;
+    line-height: 20px;
+    color: #3b3a3a;
+    font-size: 12pt;
+    /* hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto; */
   }
   .infos .ga{
     font-size: 9pt;
@@ -64,7 +84,12 @@
     color: rgb(252, 70, 70);
     line-height: 13px;
     margin:0;
-    vertical-align:top;
+  }
+  .infos .et{
+    font-size: 9pt;
+    color: rgb(95, 103, 167);
+    line-height: 13px;
+    margin:0;
   }
   .infos span{
     font-size: 9pt;
@@ -72,19 +97,6 @@
   }
   .collabo::before{
     content:"/ ";
-  }
-  .infos .explain{
-    display: inline-block;
-    width:50%;
-    height:auto;
-    vertical-align: top;
-    margin-top: 14px;
-    line-height: 16px;
-    color: #455160;
-    font-size: 10pt;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
   }
   .videoContainer{
     width: 100%;
@@ -105,9 +117,6 @@
         .infos div{
           width:100%;
         }
-        .infos .explain{
-          width:100%;
-        }
         .flexibleImage {
           width:100%;
         }
@@ -123,21 +132,12 @@
     }
     @media only screen and (min-width: 560px) {
             /* 2열 */
-            .infos div{
-              width:48%;
-            }
-            .infos .explain{
-              width:48%;
-            }
             .flexibleImage {
               width:520px;
             }
         }
     @media only screen and (min-width: 840px) {
             /* 1열 */
-            .infos div{
-              width:48%;
-            }
             .flexibleImage {
               width:800px;
             }
